@@ -1,5 +1,5 @@
 <template>
-  <main class="container mx-auto h-screen">
+  <main class="container mx-auto max-w-2xl">
     <Education />
     <Skill />
   </main>

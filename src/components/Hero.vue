@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center items-center h-screen -mt-20">
-    <main>
+    <main class="max-w-4xl">
       <Logo />
       <Header />
       <ButtonHero />

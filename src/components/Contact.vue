@@ -1,5 +1,5 @@
 <template>
-  <main class="container mx-auto my-20">
+  <main class="container mx-auto my-20 max-w-2xl">
     <div class="space-y-1">
       <p class="mt-10 text-center text-xs text-gray-700">Get in Touch</p>
       <h1 class="text-center text-3xl font-semibold">Contact</h1>

@@ -1,16 +1,12 @@
 <template>
   <Navbar />
   <section>
-    <Hero />
-  </section>
-  <section>
-    <AboutMe />
-  </section>
-  <section>
-    <Projects />
-  </section>
-  <section>
-    <Contact />
+    <main>
+      <Hero />
+      <AboutMe />
+      <Projects />
+      <Contact />
+    </main>
   </section>
 </template>
 
