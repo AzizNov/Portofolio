@@ -1,8 +1,10 @@
 <template>
-  <div class="container mx-auto">
-    <Logo />
-    <Header />
-    <ButtonHero />
+  <div class="flex justify-center items-center h-screen -mt-20">
+    <main>
+      <Logo />
+      <Header />
+      <ButtonHero />
+    </main>
   </div>
 </template>
 

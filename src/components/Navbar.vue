@@ -10,13 +10,13 @@
           <li>Projects</li>
           <li>Contact</li>
         </ul>
-        <button @click="toggleMenu">
+        <button class="md:hidden block" @click="toggleMenu">
           <img src="/menu.png" alt="..." />
         </button>
       </div>
     </div>
     <ul
-      class="md:hidden border border-black flex py-4 mx-20 rounded-full flex-col items-center gap-5 text-sm"
+      class="md:hidden border border-black flex py-4 mx-20 rounded-xl flex-col items-center gap-5 text-sm"
       :class="{ hidden: !showMenu }"
     >
       <li>About</li>
