@@ -1,5 +1,5 @@
 <template>
-  <main class="mt-28 container mx-auto max-w-2xl">
+  <main id="projects" class="mt-28 container mx-auto max-w-3xl">
     <div class="space-y-1">
       <p class="mt-10 text-center text-xs text-gray-700">Browse My Recent</p>
       <h1 class="text-center text-3xl font-semibold">Projects</h1>

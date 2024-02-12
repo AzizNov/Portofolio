@@ -1,14 +1,20 @@
 <template>
   <nav>
-    <div class="container mx-auto p-8">
-      <div
-        class="flex justify-between mx-[30px] md:mx-[200px] lg:mx-[250px] xl:mx-[350px]"
-      >
-        <h1 class="text-xl font-medium">AzizNov</h1>
-        <ul class="hidden md:flex items-center gap-5 text-sm">
-          <li>About</li>
-          <li>Projects</li>
-          <li>Contact</li>
+    <div class="container mx-auto p-8 lg:p-12">
+      <div class="flex justify-between mx-[30px] xl:mx-[200px]">
+        <h1 class="text-xl lg:text-4xl font-medium">
+          <a href="#home"> AzizNov </a>
+        </h1>
+        <ul class="hidden md:flex items-center gap-5 text-sm lg:text-2xl">
+          <li class="hover:underline">
+            <a href="#about"> About </a>
+          </li>
+          <li class="hover:underline">
+            <a href="#projects"> Projects </a>
+          </li>
+          <li class="hover:underline">
+            <a href="#contact"> Contact </a>
+          </li>
         </ul>
         <button class="md:hidden block" @click="toggleMenu">
           <img src="/menu.png" alt="..." />
@@ -19,9 +25,15 @@
       class="md:hidden border border-black flex py-4 mx-20 rounded-xl flex-col items-center gap-5 text-sm"
       :class="{ hidden: !showMenu }"
     >
-      <li>About</li>
-      <li>Projects</li>
-      <li>Contact</li>
+      <li class="hover:underline">
+        <a href="#about"> About </a>
+      </li>
+      <li class="hover:underline">
+        <a href="#projects"> Projects </a>
+      </li>
+      <li class="hover:underline">
+        <a href="#contact"> Contact </a>
+      </li>
     </ul>
   </nav>
 </template>

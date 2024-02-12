@@ -1,5 +1,5 @@
 <template>
-  <main class="container mx-auto max-w-2xl">
+  <main id="about" class="container mx-auto max-w-3xl">
     <Education />
     <Skill />
   </main>
